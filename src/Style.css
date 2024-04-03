@@ -1,0 +1,319 @@
+/* Home Page Css */
+
+.flex-container{
+    display:flex;
+    background-color: #733da5;
+}
+
+.items{
+    margin: 17px;
+    font-weight: 500;
+    color:#fff;
+}
+
+.items:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+.icon-fs{
+    font-size: x-large;
+    margin-top: 6px;
+}
+
+.large-font{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 14px;
+}
+
+.user-border{
+    padding: 2px 14px 3px 14px;
+    border-radius: 11px;
+    border: 2px solid #fff;
+    color:#fff;
+}
+
+/* Home Details css */
+
+.img-hw{
+    height:548px;
+    width:100%;
+    padding:10px;
+}
+
+.custom-container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+/* About Page CSS */
+
+.size-a-s{
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.f-aboutinfo{
+    font-weight: 300;
+    font-weight: 500;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.img-align{
+   margin: 20px 0px 20px 85px;
+}
+
+.info-align{
+    margin: 20px 0px 20px 75px;
+}
+
+.img-size{
+    height:200px;
+    width:350px;
+}
+
+/* Admission Page Css */
+    
+.bg-color{
+    /* background-color:rgb(176, 235, 229); */
+    background-color:gray;
+    padding:24px;
+}
+
+.adm-2024{
+    color:#fff;
+    font-weight:900;
+    margin-left: 412px;
+    font-size: 40px;
+}
+
+.adm-school{
+    color:rgb(255, 208, 0);
+    font-weight: 900;
+    margin-left: 350px;
+    font-size: 40px;
+}
+
+.adm-admission{
+    color:#fff;
+    font-weight: 900;
+    margin-left: 280px;
+    font-size: 40px;
+
+}
+
+.registration{
+    color:black;
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.email{
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 200px;
+    padding:20px;
+}
+.phone{
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding:20px;
+}
+
+/* Leadership Tems CSS  */
+
+.Meet-team{
+    margin: 19px 0px 36px 56px;
+    color: darkslategray;
+    font-size: 43px;
+}
+
+.img-h-w{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    margin-left: 55px;
+    border-radius: 166px;
+    background-color: #c4ebfb;
+}
+
+.team-info{
+    margin-left: 135px;
+    font-weight: 600;
+    margin-top: 15px;
+    
+}
+
+/* carriculum Page CSS */
+
+.t-color{
+    font-size: 30px;
+    font-weight: bold;
+    color: teal;
+    margin-top: 5px;
+}
+
+.c-img-hw{
+    height:150px;
+    width:185px;
+    margin-left:60px;
+}
+
+.all-batch{
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 5px;
+    font-size: x-large;
+}
+
+.f-standard{
+    font-weight:400;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* ExaminationSystem CSS */
+
+.examsys-bgcolor{
+    background-color: #f4f7f7;
+}
+
+.examsys{
+    font-size: xx-large;
+    font-weight: bold;
+    color: #cb5353;
+}
+
+.exam-img-hw{
+    height: 225px;
+    width: 225px;
+}
+
+.exam-purpose{
+    font-size: larger;
+    margin-top: 50px;
+}
+
+/* Syllabus Css */
+
+.syls-bgcolor{
+  background-color: rgb(29, 29, 94);
+}
+
+.color-text{
+    color: #fff;
+    font-style: initial;
+    font-size: xxx-large;
+}
+
+.font-edun{
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+}
+
+.u-c-sybus{
+    color:#fff;
+    font-size: larger;
+    margin: 35px 0px 0px 30px;
+}
+
+.all-syllabus{
+    color:#fff;
+    padding:20px 0px 100px 25px;
+}
+
+/* Our Facilities CSS */
+
+.facility-font{
+    font-size: xx-large;
+    margin-left: 420px;
+}
+.facilities{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 85px;
+}
+
+.f-img-hw{
+    height:200px;
+    width:380px;
+    padding:20px;
+}
+
+.img-names{
+    margin-left: 115px;
+    font-size: x-large;
+}
+
+/* Get in Touch CSS*/
+
+.getintouch-bgcolor{
+    background-color: rgb(61, 60, 60);
+}
+
+.contact-f-c{
+    font-size: 90px;
+    font-weight: 700;
+    color: #9d9b9b;
+    margin-left: 350px;
+}
+.color-g-i-t{
+    color: rgb(231, 189, 52);
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 420px;
+}
+
+.margin-left{
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+
+.color-d-bshy{
+    color: #fff;
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 44px;
+}
+
+.data-color{
+    color: rgb(248, 240, 240);
+    margin-left: 45px;
+}
+
+.icon-clr{
+    color:rgb(231, 189, 52);
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+
+
+.form-control{
+    width: 80% !important;
+    border:#fff !important;
+}
+.butn-color{
+    background-color: rgb(231, 189, 52);
+    color: black;
+    padding: 4px 15px 4px 15px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+
+
