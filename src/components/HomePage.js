@@ -26,15 +26,15 @@ const HomePage = () => {
                 <div className="row">
                     <div className="flex-container">
                         <div className="icon-fs"><IoIosSchool /></div>
-                        <div className="items large-font" onClick={()=>{handleClick('HomeDetails')}}>Welcome to Our School</div>
-                        <div className="items" onClick={()=>{handleClick('AboutSchool')}}>About School</div>
-                        <div className="items" onClick={()=>{handleClick('LeadershipTeam')}}>LeadershipTeam</div>
-                        <div className="items" onClick={()=>{handleClick('Admission')}}>Admission</div>
-                        <div className="items" onClick={()=>{handleClick('Curriculum')}}>Curriculum</div>
-                        <div className="items" onClick={()=>{handleClick('ExaminationSystem')}}>ExaminationSystem</div>
-                        <div className="items" onClick={()=>{handleClick('Syllabus')}}>Syllabus</div> 
-                        <div className="items" onClick={()=>{handleClick('OurFacilities')}}>OurFacilities</div>
-                        <div className="items"onClick={()=>{handleClick('GetInTouch')}}>GetInTouch</div>
+                        <div className={loadView === "HomeDetails" ? "active": "items large-font"} onClick={()=>{handleClick('HomeDetails')}}>Welcome to Our School</div>
+                        <div className={loadView === "AboutSchool" ? "active":"items"} onClick={()=>{handleClick('AboutSchool')}}>About School</div>
+                        <div className={loadView === "LeadershipTeam" ? "active":"items"} onClick={()=>{handleClick('LeadershipTeam')}}>LeadershipTeam</div>
+                        <div className={loadView === "Admission" ? "active":"items"} onClick={()=>{handleClick('Admission')}}>Admission</div>
+                        <div className={loadView === "Curriculum" ? "active":"items"} onClick={()=>{handleClick('Curriculum')}}>Curriculum</div>
+                        <div className={loadView === "ExaminationSystem" ? "active":"items"} onClick={()=>{handleClick('ExaminationSystem')}}>ExaminationSystem</div>
+                        <div className={loadView === "Syllabus" ? "active":"items"} onClick={()=>{handleClick('Syllabus')}}>Syllabus</div> 
+                        <div className={loadView === "OurFacilities" ? "active":"items"} onClick={()=>{handleClick('OurFacilities')}}>OurFacilities</div>
+                        <div className={loadView === "GetInTouch" ? "active":"items"}onClick={()=>{handleClick('GetInTouch')}}>GetInTouch</div>
                     </div>
                 </div>
                 <div className="row">
